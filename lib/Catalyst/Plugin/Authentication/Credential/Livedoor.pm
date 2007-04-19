@@ -2,7 +2,7 @@ package Catalyst::Plugin::Authentication::Credential::Livedoor;
 
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use NEXT;
 use WebService::Livedoor::Auth;
