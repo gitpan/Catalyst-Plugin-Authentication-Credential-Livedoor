@@ -2,7 +2,7 @@ package Catalyst::Plugin::Authentication::Credential::Livedoor;
 
 use strict;
 use warnings;
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use NEXT;
 use WebService::Livedoor::Auth;
@@ -85,7 +85,7 @@ Catalyst::Plugin::Authentication::Credential::Livedoor - livedoor Auth API for C
 
   use Catalyst qw(
       Authentication
-      Authentication::Credential::BBAuth
+      Authentication::Credential::Livedoor
       Session
       Session::Store::FastMmap
       Session::State::Cookie

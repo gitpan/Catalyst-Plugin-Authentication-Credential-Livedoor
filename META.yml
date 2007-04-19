@@ -17,4 +17,4 @@ no_index:
 requires: 
   Catalyst: 5.700
   WebService::Livedoor::Auth: 0.01
-version: 0.02
+version: 0.03
